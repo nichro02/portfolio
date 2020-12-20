@@ -1,0 +1,90 @@
+.container {
+    max-width: 70rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    padding-top: 80px;
+}
+
+.navBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #82e8f3;
+    height: 80px;
+    z-index: 300;
+}
+
+
+.introBlock {
+    width: 100%;
+}
+
+.greetingText {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: 300%;
+}
+
+.introText {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+
+.footerText {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navLinkHeader {
+    height: 100%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navLinks {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #82e8f3;
+}
+
+.footerDiv {
+    width: 100%;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.link {
+    margin: 0 10px;
+}
