@@ -15,7 +15,7 @@ const Projects = () => {
                     </title>
                 </Head>
 
-                <div>
+                <div className={styles.main}>
                     <h1>
                         My Projects
                     </h1>

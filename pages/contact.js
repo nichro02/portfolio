@@ -15,7 +15,7 @@ const Contact = () => {
                     </title>
                 </Head>
 
-                <div>
+                <div className={styles.main}>
                     <h1>
                         Contact Me
                     </h1>
