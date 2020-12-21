@@ -1,22 +1,9 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 import styles from '../styles/Layout.module.css'
 
 const Layout = ({ children }) => {
-    
-    /*window.onscroll = function() {stickyHeader}
-
-    const header = document.getElementsByClassName('navBar')
-    const sticky = header.offsetTop
-
-    function stickyHeader() {
-        if(window.pageYOffset > sticky) {
-            header.classList.add('activeNavBar')
-        } else {
-            header.classList.remove('activeNavBar')
-        }
-    }
-    */
     
     return (
         <>
@@ -24,12 +11,19 @@ const Layout = ({ children }) => {
                 <div>
                     <div className={styles.navLinkHeader}>
                     <Link href='/'>
-                        Home
+                        <a>
+                            <Image
+                                src="/../public/home-icon.png"
+                                alt='Email me at nichro02@gmail.com'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
                     </Link>
                     <span className={styles.navLinks}>
                     <span className={styles.link}>
                     <Link href='/about'>
-                        About
+                        About Me
                     </Link>
                     </span>
                     <span className={styles.link}>
@@ -38,19 +32,17 @@ const Layout = ({ children }) => {
                     </Link>
                     </span>
                     <span className={styles.link}>
-                    <Link href='/contact'>
-                        Contact
-                    </Link>
+                        <a href='mailto:nichro02@gmail.com'>
+                            <Image
+                                src="/../public/envelope.png"
+                                alt='Email me at nichro02@gmail.com'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
                     </span>
                     </span>
                     </div>
-                    {/*<div className={styles.introBlock}>
-                        <h1 className={styles.greetingText}>Ross Nichols </h1>
-                        <h2 className={styles.introText}>
-                        Software Engineer
-                        </h2>
-                    </div>*/}
-                    
                 </div>
             </nav>
             
@@ -61,7 +53,7 @@ const Layout = ({ children }) => {
                     <span className={styles.footerLinks}>
                         <span className={styles.link}>
                             <Link href='/about'>
-                                About
+                                About Me
                             </Link>
                         </span>
                         <span className={styles.link}>
@@ -70,9 +62,14 @@ const Layout = ({ children }) => {
                             </Link>
                         </span>
                         <span className={styles.link}>
-                            <Link href='/contact'>
-                                Contact
-                            </Link>
+                            <a href='mailto:nichro02@gmail.com'>
+                                <Image
+                                    src="/../public/envelope.png"
+                                    alt='Email me at nichro02@gmail.com'
+                                    width={35}
+                                    height={30}
+                                />
+                            </a>
                         </span>
                     </span>
                     <h6 className={styles.footerText}>Website created by Ross Nichols, built on NextJS</h6>

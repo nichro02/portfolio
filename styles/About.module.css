@@ -19,3 +19,11 @@
     font-size: 1.25rem;
     line-height: 1.5;
 }
+
+.iconSpan {
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 15%
+}

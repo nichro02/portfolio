@@ -6,6 +6,7 @@ import Layout from './layout'
 import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
+    
     return(
         <Layout>
             <div className={styles.contactContainer}>
@@ -20,9 +21,9 @@ const Contact = () => {
                         Contact Me
                     </h1>
                     <p>
-                        Click on the icons below, or send me a note!
+                        Click on the icons below or send me a note!
                     </p>
-                    <span>
+                    <span className={styles.iconSpan}>
                         <a href='https://github.com/nichro02'>
                             <Image
                                 src="/../public/github-icon.png"
@@ -32,14 +33,33 @@ const Contact = () => {
                             />
                         </a>
                         <a href='https://www.linkedin.com/in/ross-nichols-gettysburg/'>
-                        <Image
+                            <Image
                                 src="/../public/linkedIn-icon.png"
                                 alt='Github link'
                                 width={35}
                                 height={30}
                             />
                         </a>
+                        <a href='mailto:nichro02@gmail.com'>
+                            <Image
+                                src="/../public/envelope.png"
+                                alt='Email me at nichro02@gmail.com'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
                     </span>
+                    <form>
+                        <div>
+                            <label>Email</label>
+                        </div>
+                        <div>
+                            <label>Name</label>
+                        </div>
+                        <div>
+                            <label>Message</label>
+                        </div>
+                    </form>
                 </div>
             </div>
         </Layout>
