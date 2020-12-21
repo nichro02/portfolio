@@ -38,16 +38,16 @@ const Projects = () => {
                                 <a 
                                     href='https://github.com/nichro02/dealOrNoDeal' target='_blank'
                                 >
-                                <button className={styles.button}>
-                                    View Github repo
-                                </button>
+                                    <button className={styles.button}>
+                                        View Github repo
+                                    </button>
                                 </a>
                                 <a 
                                     href='https://nichro02.github.io/dealOrNoDeal/' target='_blank'
                                 >
-                                <button className={styles.button}>
-                                    View live site
-                                </button>
+                                    <button className={styles.button}>
+                                        View live site
+                                    </button>
                                 </a>
                             </span>
                         </a>
@@ -55,7 +55,7 @@ const Projects = () => {
                         <a className={styles.card}>
                             <Image
                                 src='/../public/poetryInMotion.png'
-                                alt='Deal or No Deal picture'
+                                alt='Poetry in Motion picture'
                                 width={500}
                                 height={300}
                             />
@@ -67,12 +67,22 @@ const Projects = () => {
                                 Technologies Used
                             </span>
                             <span className={styles.buttonSpan}>
-                                <button className={styles.button}>
-                                    View Github repo
-                                </button>
-                                <button className={styles.button}>
-                                    View live site
-                                </button>
+                                <a
+                                    href='https://github.com/nichro02/poetry-in-motion'
+                                    target='_blank'
+                                >
+                                    <button className={styles.button}>
+                                        View Github repo
+                                    </button>
+                                </a>
+                                <a
+                                    href='https://poetryinmotion.herokuapp.com/'
+                                    target='_blank'
+                                >
+                                    <button className={styles.button}>
+                                        View live site
+                                    </button>
+                                </a>
                             </span>
                         </a>
                     </div>
