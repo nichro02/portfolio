@@ -21,36 +21,56 @@ const Projects = () => {
                     </h1>
                     <div className={styles.grid}>
                         <a className={styles.card}>
+                            <Image
+                                src='/../public/dealOrNoDeal.png'
+                                alt='Deal or No Deal picture'
+                                width={500}
+                                height={300}
+                            />
                             <h3>Deal or No Deal &rarr;</h3>
                             <p>
                                 My take on the classic TV game show.
                             </p>
-                            <span>
-
+                            <span className={styles.techSpan}>
+                                Technologies Used
                             </span>
-                            <span>
-                                <button>
+                            <span className={styles.buttonSpan}>
+                                <a 
+                                    href='https://github.com/nichro02/dealOrNoDeal' target='_blank'
+                                >
+                                <button className={styles.button}>
                                     View Github repo
                                 </button>
-                                <button>
+                                </a>
+                                <a 
+                                    href='https://nichro02.github.io/dealOrNoDeal/' target='_blank'
+                                >
+                                <button className={styles.button}>
                                     View live site
                                 </button>
+                                </a>
                             </span>
                         </a>
 
                         <a className={styles.card}>
+                            <Image
+                                src='/../public/poetryInMotion.png'
+                                alt='Deal or No Deal picture'
+                                width={500}
+                                height={300}
+                            />
                             <h3>Poetry in Motion &rarr;</h3>
                             <p>
                                 An app I designed to help people get their creative juices on the flow.
                             </p>
-                            <span>
-
+                            <span className={styles.techSpan}>
+                                Technologies Used
                             </span>
-                            <span>
-                                <button>
+                            <span className={styles.buttonSpan}>
+                                <button className={styles.button}>
                                     View Github repo
                                 </button>
-                                <button>
+                                <button className={styles.button}>
                                     View live site
                                 </button>
                             </span>
