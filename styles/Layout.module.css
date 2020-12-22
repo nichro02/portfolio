@@ -88,3 +88,7 @@
 .link {
     margin: 0 10px;
 }
+
+.link:hover {
+    opacity: 50%;
+}

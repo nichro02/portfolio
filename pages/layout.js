@@ -10,34 +10,51 @@ const Layout = ({ children }) => {
             <nav className={styles.navBar}>
                 <div>
                     <div className={styles.navLinkHeader}>
+                    
+                    <span className={styles.link}>
                     <Link href='/'>
-                        <a>
+                        <a title='home'>
                             <Image
                                 src="/../public/home-icon.png"
-                                alt='Email me at nichro02@gmail.com'
+                                alt='Take me to the homepage'
                                 width={35}
                                 height={30}
                             />
                         </a>
                     </Link>
+                    </span>
                     <span className={styles.navLinks}>
                     <span className={styles.link}>
                     <Link href='/about'>
-                        About Me
+                        <a title='About Me'>
+                            <Image
+                                src="/../public/aboutme-icon.png"
+                                alt='Learn more about me'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
                     </Link>
                     </span>
                     <span className={styles.link}>
                     <Link href='/projects'>
-                        Projects
+                        <a title='Projects'>
+                            <Image
+                                src="/../public/briefcase-icon.png"
+                                alt='View my projects'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
                     </Link>
                     </span>
                     <span className={styles.link}>
-                        <a href='mailto:nichro02@gmail.com'>
+                        <a href='mailto:nichro02@gmail.com' title='Send me an email'>
                             <Image
                                 src="/../public/envelope.png"
                                 alt='Email me at nichro02@gmail.com'
-                                width={35}
-                                height={30}
+                                width={30}
+                                height={24}
                             />
                         </a>
                     </span>
@@ -53,21 +70,35 @@ const Layout = ({ children }) => {
                     <span className={styles.footerLinks}>
                         <span className={styles.link}>
                             <Link href='/about'>
-                                About Me
+                                <a title='About Me'>
+                                    <Image
+                                        src="/../public/aboutme-icon.png"
+                                        alt='Learn more about me'
+                                        width={35}
+                                        height={30}
+                                    />
+                                </a>
                             </Link>
                         </span>
                         <span className={styles.link}>
                             <Link href='/projects'>
-                                Projects
+                                <a title='Projects'>
+                                    <Image
+                                        src='/../public/briefcase-icon.png'
+                                        alt='View my projects'
+                                        width={35}
+                                        height={30}
+                                    />
+                                </a>
                             </Link>
                         </span>
                         <span className={styles.link}>
-                            <a href='mailto:nichro02@gmail.com'>
+                            <a href='mailto:nichro02@gmail.com' title='Send me an email'>
                                 <Image
                                     src="/../public/envelope.png"
                                     alt='Email me at nichro02@gmail.com'
-                                    width={35}
-                                    height={30}
+                                    width={30}
+                                    height={24}
                                 />
                             </a>
                         </span>
