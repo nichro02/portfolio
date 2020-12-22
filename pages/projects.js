@@ -27,7 +27,7 @@ const Projects = () => {
                                 width={500}
                                 height={300}
                             />
-                            <h3>Deal or No Deal &rarr;</h3>
+                            <h3>Deal or No Deal</h3>
                             <p>
                                 My take on the classic TV game show.
                             </p>
@@ -59,7 +59,7 @@ const Projects = () => {
                                 width={500}
                                 height={300}
                             />
-                            <h3>Poetry in Motion &rarr;</h3>
+                            <h3>Poetry in Motion</h3>
                             <p>
                                 An app I designed to help people get their creative juices on the flow.
                             </p>
