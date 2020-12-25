@@ -32,7 +32,9 @@ const Projects = () => {
                                 My take on the classic TV game show.
                             </p>
                             <span className={styles.techSpan}>
-                                Technologies Used
+                                <li>HTML</li>
+                                <li>Javascript</li>
+                                <li>CSS</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a 
@@ -64,7 +66,10 @@ const Projects = () => {
                                 An app I designed to help people get their creative juices on the flow.
                             </p>
                             <span className={styles.techSpan}>
-                                Technologies Used
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>React</li>
+                                <li>PostgreSQL</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a
