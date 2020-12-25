@@ -56,7 +56,7 @@ const Projects = () => {
 
                         <a className={styles.card}>
                             <Image
-                                src='/../public/poetryInMotion.png'
+                                src='/poetryInMotion.png'
                                 alt='Poetry in Motion picture'
                                 width={500}
                                 height={300}

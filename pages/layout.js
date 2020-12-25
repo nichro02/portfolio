@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
                         <Link href='/'>
                             <a title='home'>
                                 <Image
-                                    src='/../public/home-icon.png'
+                                    src='/home-icon.png'
                                     alt='Take me to the homepage'
                                     width={35}
                                     height={30}
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
                             <Link href='/about'>
                                 <a title='About Me'>
                                     <Image
-                                        src='/../public/aboutme-icon.png'
+                                        src='/aboutme-icon.png'
                                         alt='Learn more about me'
                                         width={35}
                                         height={30}
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                             <Link href='/projects'>
                                 <a title='Projects'>
                                     <Image
-                                        src='/../public/briefcase-icon.png'
+                                        src='/briefcase-icon.png'
                                         alt='View my projects'
                                         width={35}
                                         height={30}
@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
                         <span className={styles.link}>
                             <a href='mailto:nichro02@gmail.com' title='Send me an email'>
                                 <Image
-                                    src='/../public/envelope.png'
+                                    src='/envelope.png'
                                     alt='Email me at nichro02@gmail.com'
                                     width={30}
                                     height={24}
@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
                             <Link href='/about'>
                                 <a title='About Me'>
                                     <Image
-                                        src='/../public/aboutme-icon.png'
+                                        src='/aboutme-icon.png'
                                         alt='Learn more about me'
                                         width={35}
                                         height={30}
@@ -81,7 +81,7 @@ const Layout = ({ children }) => {
                             <Link href='/projects'>
                                 <a title='Projects'>
                                     <Image
-                                        src='/../public/briefcase-icon.png'
+                                        src='/briefcase-icon.png'
                                         alt='View my projects'
                                         width={35}
                                         height={30}
@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
                         <span className={styles.link}>
                             <a href='mailto:nichro02@gmail.com' title='Send me an email'>
                                 <Image
-                                    src='/../public/envelope.png'
+                                    src='/envelope.png'
                                     alt='Email me at nichro02@gmail.com'
                                     width={30}
                                     height={24}
