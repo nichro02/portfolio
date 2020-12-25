@@ -22,7 +22,7 @@ const Projects = () => {
                     <div className={styles.grid}>
                         <a className={styles.card}>
                             <Image
-                                src='/../public/dealOrNoDeal.png'
+                                src='/dealOrNoDeal.png'
                                 alt='Deal or No Deal picture'
                                 width={500}
                                 height={300}
