@@ -32,16 +32,24 @@ const About = () => {
                     <span className={styles.iconSpan}>
                         <a href='https://github.com/nichro02'>
                             <Image
-                                src="/../public/github-icon.png"
-                                alt='Github link'
+                                src="/github-icon.png"
+                                alt='Github profile'
                                 width={30}
                                 height={30}
                             />
                         </a>
                         <a href='https://www.linkedin.com/in/ross-nichols-gettysburg/'>
                             <Image
-                                src="/../public/linkedIn-icon.png"
-                                alt='Github link'
+                                src="/linkedIn-icon.png"
+                                alt='LinkedIn profile'
+                                width={35}
+                                height={30}
+                            />
+                        </a>
+                        <a href ='https://drive.google.com/file/d/1yKZwSY144dnuXfBvhTkgAxDA4G6zu3XK/view?usp=sharing'>
+                            <Image
+                                src="/resume.png"
+                                alt='Resume'
                                 width={35}
                                 height={30}
                             />
