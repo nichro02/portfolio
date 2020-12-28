@@ -26,7 +26,7 @@ const About = () => {
                             When I'm not coding, I read as much as I can, see as much of the world as possible, try new foods, play Ultimate Frisbee, and run.
                         </p>
                         <p>
-                            Please click on the Github and LinkedIn icons if you'd like to learn more.
+                            Please click on the icons below if you'd like to view my Github profile, LinkedIn profile, or resume.
                         </p>
                     </div>
                     <span className={styles.iconSpan}>
