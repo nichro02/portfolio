@@ -26,7 +26,7 @@ const Contact = () => {
                     <span className={styles.iconSpan}>
                         <a href='https://github.com/nichro02'>
                             <Image
-                                src="/../public/github-icon.png"
+                                src="/github-icon.png"
                                 alt='Github link'
                                 width={30}
                                 height={30}
@@ -34,7 +34,7 @@ const Contact = () => {
                         </a>
                         <a href='https://www.linkedin.com/in/ross-nichols-gettysburg/'>
                             <Image
-                                src="/../public/linkedIn-icon.png"
+                                src="/linkedIn-icon.png"
                                 alt='Github link'
                                 width={35}
                                 height={30}
@@ -42,7 +42,7 @@ const Contact = () => {
                         </a>
                         <a href='mailto:nichro02@gmail.com'>
                             <Image
-                                src="/../public/envelope.png"
+                                src="/envelope.png"
                                 alt='Email me at nichro02@gmail.com'
                                 width={35}
                                 height={30}

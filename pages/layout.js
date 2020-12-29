@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <>
             <nav className={styles.navBar}>
                 <div className={styles.navLinkHeader}>
-                    <span className={styles.link}>
+                    <span className={styles.homeLink}>
                         <Link href='/'>
                             <a title='home'>
                                 <Image
