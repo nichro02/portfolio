@@ -21,6 +21,9 @@ const Layout = ({ children }) => {
                             </a>
                         </Link>
                     </span>
+                    <span className={styles.greetingText}>
+                        Ross Nichols | Full-stack Developer
+                    </span>
                     <span className={styles.navLinks}>
                         <span className={styles.link}>
                             <Link href='/about'>

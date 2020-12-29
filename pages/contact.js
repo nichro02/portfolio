@@ -21,7 +21,7 @@ const Contact = () => {
                         Contact Me
                     </h1>
                     <p>
-                        Click on the icons below or send me a note!
+                        Click on the icons below to get in touch!
                     </p>
                     <span className={styles.iconSpan}>
                         <a href='https://github.com/nichro02'>
@@ -49,17 +49,6 @@ const Contact = () => {
                             />
                         </a>
                     </span>
-                    <form>
-                        <div>
-                            <label>Email</label>
-                        </div>
-                        <div>
-                            <label>Name</label>
-                        </div>
-                        <div>
-                            <label>Message</label>
-                        </div>
-                    </form>
                 </div>
             </div>
         </Layout>

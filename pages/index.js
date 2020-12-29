@@ -40,7 +40,7 @@ export default function Home() {
                 <p>Look at what I've been working on</p>
               </a>
             </Link>
-            {/*
+            
             <Link
               href="/contact"
             >
@@ -49,7 +49,7 @@ export default function Home() {
                 <p>Get in touch</p>
               </a>
             </Link>
-            */}
+            
           </div>
         </main>
       </div>
