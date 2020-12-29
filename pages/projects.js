@@ -29,7 +29,7 @@ const Projects = () => {
                             />
                             <h3>Deal or No Deal</h3>
                             <p>
-                                My take on the classic TV game show.
+                                My take on the classic TV game show
                             </p>
                             <span className={styles.techSpan}>
                                 <li>HTML</li>
@@ -63,7 +63,7 @@ const Projects = () => {
                             />
                             <h3>Poetry in Motion</h3>
                             <p>
-                                An app I designed to help people get their creative juices on the flow.
+                                An app I designed to help people get their creative juices flowing
                             </p>
                             <span className={styles.techSpan}>
                                 <li>HTML</li>
