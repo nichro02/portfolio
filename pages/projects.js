@@ -20,7 +20,7 @@ const Projects = () => {
                         My Projects
                     </h1>
                     <div className={styles.grid}>
-                        <a className={styles.card}>
+                        <div className={styles.card}>
                             <Image
                                 src='/dealOrNoDeal.png'
                                 alt='Deal or No Deal picture'
@@ -52,9 +52,9 @@ const Projects = () => {
                                     </button>
                                 </a>
                             </span>
-                        </a>
+                        </div>
 
-                        <a className={styles.card}>
+                        <div className={styles.card}>
                             <Image
                                 src='/poetryInMotion.png'
                                 alt='Poetry in Motion picture'
@@ -89,7 +89,7 @@ const Projects = () => {
                                     </button>
                                 </a>
                             </span>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
