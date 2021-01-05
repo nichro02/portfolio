@@ -68,8 +68,7 @@ const Projects = () => {
                             <span className={styles.techSpan}>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>React</li>
-                                <li>PostgreSQL</li>
+                                <li>Sequelize</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a
