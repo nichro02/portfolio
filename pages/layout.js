@@ -103,7 +103,13 @@ const Layout = ({ children }) => {
                             </a>
                         </span>
                     </span>
-                    <h6 className={styles.footerText}>Website created by Ross Nichols, built on NextJS</h6>
+                    <h6 className={styles.footerText}>
+                        Website created by Ross Nichols, built with NextJS
+                        <h6>
+                        * Flamingo favicon courtesy of Freepik on  flaticon
+                        </h6>
+                    </h6>
+
                 </div>
             </footer>
         </>
