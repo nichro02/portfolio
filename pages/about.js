@@ -46,7 +46,7 @@ const About = () => {
                                 height={30}
                             />
                         </a>
-                        <a href ='https://drive.google.com/file/d/1yKZwSY144dnuXfBvhTkgAxDA4G6zu3XK/view?usp=sharing'>
+                        <a href ='https://drive.google.com/file/d/1jx7OtXPOwSoEPS5ANw-IJoosGO0zgMyu/view?usp=sharing'>
                             <Image
                                 src="/resume.png"
                                 alt='Resume'

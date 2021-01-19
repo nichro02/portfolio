@@ -32,23 +32,23 @@ const Projects = () => {
                                 My take on the classic TV game show
                             </p>
                             <span className={styles.techSpan}>
+                                <li>CSS</li>
                                 <li>HTML</li>
                                 <li>Javascript</li>
-                                <li>CSS</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a 
                                     href='https://github.com/nichro02/dealOrNoDeal' target='_blank'
                                 >
                                     <button className={styles.button}>
-                                        View Github repo
+                                        Github repo
                                     </button>
                                 </a>
                                 <a 
                                     href='https://nichro02.github.io/dealOrNoDeal/' target='_blank'
                                 >
                                     <button className={styles.button}>
-                                        View live site
+                                        Live site
                                     </button>
                                 </a>
                             </span>
@@ -66,9 +66,10 @@ const Projects = () => {
                                 An app I designed to help people get their creative juices flowing
                             </p>
                             <span className={styles.techSpan}>
-                                <li>HTML</li>
-                                <li>CSS</li>
+                                <li>Express</li>
+                                <li>Javascript</li>
                                 <li>Sequelize</li>
+                                <li>API</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a
@@ -76,7 +77,7 @@ const Projects = () => {
                                     target='_blank'
                                 >
                                     <button className={styles.button}>
-                                        View Github repo
+                                        Github repo
                                     </button>
                                 </a>
                                 <a
@@ -84,7 +85,52 @@ const Projects = () => {
                                     target='_blank'
                                 >
                                     <button className={styles.button}>
-                                        View live site
+                                        Live site
+                                    </button>
+                                </a>
+                            </span>
+                        </div>
+
+                        <div className={styles.card}>
+                            <Image
+                                src='/chirper.png'
+                                alt='Poetry in Motion picture'
+                                width={500}
+                                height={300}
+                            />
+                            <h3>Chirper</h3>
+                            <p>
+                                A social media app my group and I built as a project for General Assembly - think Twitter/Facebook reimagined
+                            </p>
+                            <span className={styles.techSpan}>
+                                <li>Express</li>
+                                <li>Javascript</li>
+                                <li>Mongoose</li>
+                                <li>React</li>
+                            </span>
+                            <span className={styles.buttonSpan}>
+                                <a
+                                    href='https://github.com/SFX818/Team-7-frontend'
+                                    target='_blank'
+                                >
+                                    <button className={styles.button}>
+                                        Frontend repo
+                                    </button>
+                                </a>
+                                <a
+                                    href='https://github.com/SFX818/Team-7-backend'
+                                    target='_blank'
+                                >
+                                    <button className={styles.button}>
+                                        Backend repo
+                                    </button>
+                                </a>
+                                <a
+                                    href='https://chirper.surge.sh/'
+                                    target='_blank'
+                                >
+                                    <button className={styles.button}>
+                                        Live site
                                     </button>
                                 </a>
                             </span>
