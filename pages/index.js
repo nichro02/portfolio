@@ -87,6 +87,16 @@ export default function Home() {
             live_site='https://chirper.surge.sh/'
           />
 
+          <Project
+            src='/portfolioPage.png'
+            alt='Portfolio screenshot'
+            title='My Portfolio'
+            description='You are looking a living project of mine! I have rebuilt my portfolio several times and am continuing to improve it'
+            tech_stack={['React', 'NextJS']}
+            github='https://github.com/nichro02/portfolio'
+            live_site='https://portfolio.nichro02.vercel.app/'
+          />
+
 
           <a id='contact'>
             <div className={styles.sectionHeader}>
