@@ -112,6 +112,11 @@ export default function Home() {
               src='/envelope.png'
               alt='Email'
             />
+            <Contact
+              link='/resume.pdf'
+              src='/resume.png'
+              alt='Resume'
+            />
           </span>
 
         </main>
