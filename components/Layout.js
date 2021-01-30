@@ -11,19 +11,15 @@ const Layout = ({ children }) => {
                 <div className={styles.navLinkHeader}>
                     <span className={styles.homeLink}>
                         <Link href='/'>
-                            <a title='home'>
-                                <Image
-                                    src='/home-icon.png'
-                                    alt='Take me to the homepage'
-                                    width={35}
-                                    height={30}
-                                />
+                            <a 
+                                title='home'
+                                className={styles.greetingText}
+                            >
+                                Ross Nichols | Full-stack Engineer
                             </a>
                         </Link>
                     </span>
-                    <span className={styles.greetingText}>
-                        Ross Nichols | Full-stack Developer
-                    </span>
+
                     <span className={styles.navLinks}>
                         <span className={styles.link}>
                             <Link href='#about'>

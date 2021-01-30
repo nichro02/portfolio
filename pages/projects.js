@@ -69,7 +69,7 @@ const Projects = () => {
                                 <li>Express</li>
                                 <li>Javascript</li>
                                 <li>Sequelize</li>
-                                <li>API</li>
+                                <li>APIs</li>
                             </span>
                             <span className={styles.buttonSpan}>
                                 <a

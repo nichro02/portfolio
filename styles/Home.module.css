@@ -29,7 +29,7 @@
   margin-left: 0.5rem;
 }
 
-.footer a {
+.footer a, .Contact a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +60,29 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.about {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
+  
+}
+
+.aboutBox {
+  margin: 0 auto;
+  align-items: center;
+  width: 80%;
+  display: grid;
+  columns: 2;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: 'aside p'
+}
+
+.imageBox {
+  display: inline;
+  max-width: 200px;
+  padding: 15px;
 }
 
 .code {
@@ -112,6 +135,18 @@
 
 .logo {
   height: 1em;
+}
+
+.sectionHeader {
+  width: 100%;
+  color: #00ab44b3;
+}
+
+.contactSpan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%
 }
 
 @media (max-width: 600px) {
