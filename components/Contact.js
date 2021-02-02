@@ -6,7 +6,7 @@ import styles from '../styles/Contact.module.css'
 
 function Contact(props){
     return(
-        <a href={props.link}>
+        <a href={props.link} title={props.alt}>
             <Image
                 src={props.src}
                 alt={props.alt}

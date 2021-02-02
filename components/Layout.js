@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+import Contact from './Contact'
+
 import styles from '../styles/Layout.module.css'
 
 const Layout = ({ children }) => {
@@ -46,14 +48,16 @@ const Layout = ({ children }) => {
                             </Link>
                         </span>
                         <span className={styles.link}>
-                            <a href='mailto:nichro02@gmail.com' title='Send me an email'>
-                                <Image
-                                    src='/envelope.png'
-                                    alt='Email me at nichro02@gmail.com'
-                                    width={30}
-                                    height={24}
-                                />
-                            </a>
+                            <Link href='#contact'>
+                                <a title='Contact'>
+                                    <Image
+                                        src='/pencil.png'
+                                        alt='How to contact me'
+                                        width={35}
+                                        height={30}
+                                    />
+                                </a>
+                            </Link>
                         </span>
                     </span>
                 </div>
@@ -65,39 +69,33 @@ const Layout = ({ children }) => {
                 <div className={styles.footerDiv}>
                     <span className={styles.footerLinks}>
                         <span className={styles.link}>
-                            <Link href='#about'>
-                                <a title='About Me'>
-                                    <Image
-                                        src='/aboutme-icon.png'
-                                        alt='Learn more about me'
-                                        width={35}
-                                        height={30}
-                                    />
-                                </a>
-                            </Link>
-                        </span>
-                        <span className={styles.link}>
-                            <Link href='#projects'>
-                                <a title='Projects'>
-                                    <Image
-                                        src='/briefcase-icon.png'
-                                        alt='View my projects'
-                                        width={35}
-                                        height={30}
-                                    />
-                                </a>
-                            </Link>
-                        </span>
-                        <span className={styles.link}>
-                            <a href='mailto:nichro02@gmail.com' title='Send me an email'>
-                                <Image
-                                    src='/envelope.png'
-                                    alt='Email me at nichro02@gmail.com'
-                                    width={30}
-                                    height={24}
+                            <a title='Github'>
+                                <Contact
+                                    link='https://github.com/nichro02'
+                                    src='/github-icon.png'
+                                    alt='Github'
                                 />
                             </a>
                         </span>
+                        <span className={styles.link}>
+                            <a title='LinkedIn'>
+                                <Contact
+                                    link='https://www.linkedin.com/in/ross-nichols-gettysburg/'
+                                    src='/linkedIn-icon.png'
+                                    alt='LinkedIn'
+                                />
+                            </a>
+                        </span>
+                        <span className={styles.link}>
+                            <a title='Resume'>
+                                <Contact
+                                    link='/resume.pdf'
+                                    src='/resume.png'
+                                    alt='Resume'
+                                />
+                            </a>
+                        </span>
+
                     </span>
                     <h6 className={styles.footerText}>
 
