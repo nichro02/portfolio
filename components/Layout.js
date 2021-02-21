@@ -59,6 +59,13 @@ const Layout = ({ children }) => {
                                 </a>
                             </Link>
                         </span>
+                        <span className={styles.link}>
+                            <Contact
+                                link='/resume_022121.pdf'
+                                src='/resume.png'
+                                alt='Resume'
+                            />
+                        </span>
                     </span>
                 </div>
             </nav>
