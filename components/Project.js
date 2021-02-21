@@ -7,7 +7,7 @@ import styles from '../styles/Project.module.css'
 function Project(props){
     return(
         <div className={styles.card}>            
-            <h3>{props.title}</h3>
+            <h3 style ={{textAlign: 'center'}}>{props.title}</h3>
             <div style={{display: 'flex', justifyContent: 'center', paddingBottom: '10px'}}>
                 <Image
                     src={props.src}
