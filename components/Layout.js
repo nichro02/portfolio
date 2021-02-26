@@ -13,50 +13,50 @@ const Layout = ({ children }) => {
                 <div className={styles.navLinkHeader}>
                     <span className={styles.homeLink}>
                         <Link href='/'>
-                            <a 
+                            <div 
                                 title='home'
                                 className={styles.greetingText}
                             >
                                 Ross Nichols | Full-stack Engineer
-                            </a>
+                            </div>
                         </Link>
                     </span>
 
                     <span className={styles.navLinks}>
                         <span className={styles.link}>
-                            <Link href='#about'>
-                                <a title='About Me'>
+                            <Link href='/#about'>
+                                <div title='About Me'>
                                     <Image
                                         src='/aboutme-icon.png'
                                         alt='Learn more about me'
                                         width={35}
                                         height={30}
                                     />
-                                </a>
+                                </div>
                             </Link>
                         </span>
                         <span className={styles.link}>
-                            <Link href='#projects'>
-                                <a title='Projects'>
+                            <Link href='/#projects'>
+                                <div title='Projects'>
                                     <Image
                                         src='/briefcase-icon.png'
                                         alt='View my projects'
                                         width={35}
                                         height={30}
                                     />
-                                </a>
+                                </div>
                             </Link>
                         </span>
                         <span className={styles.link}>
-                            <Link href='#contact'>
-                                <a title='Contact'>
+                            <Link href='/#contact'>
+                                <div title='Contact'>
                                     <Image
                                         src='/pencil.png'
                                         alt='How to contact me'
                                         width={35}
                                         height={30}
                                     />
-                                </a>
+                                </div>
                             </Link>
                         </span>
                         <span className={styles.link}>
@@ -76,31 +76,31 @@ const Layout = ({ children }) => {
                 <div className={styles.footerDiv}>
                     <span className={styles.footerLinks}>
                         <span className={styles.link}>
-                            <a title='Github'>
+                            <div title='Github'>
                                 <Contact
                                     link='https://github.com/nichro02'
                                     src='/github-icon.png'
                                     alt='Github'
                                 />
-                            </a>
+                            </div>
                         </span>
                         <span className={styles.link}>
-                            <a title='LinkedIn'>
+                            <div title='LinkedIn'>
                                 <Contact
                                     link='https://www.linkedin.com/in/ross-nichols-gettysburg/'
                                     src='/linkedIn-icon.png'
                                     alt='LinkedIn'
                                 />
-                            </a>
+                            </div>
                         </span>
                         <span className={styles.link}>
-                            <a title='Resume'>
+                            <div title='Resume'>
                                 <Contact
                                     link='/resume_022521.pdf'
                                     src='/resume.png'
                                     alt='Resume'
                                 />
-                            </a>
+                            </div>
                         </span>
 
                     </span>

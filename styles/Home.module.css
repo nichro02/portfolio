@@ -72,17 +72,17 @@
 .aboutBox {
   margin: 0 auto;
   align-items: center;
-  width: 80%;
+  width: 100%;
   display: grid;
   columns: 2;
   grid-template-columns: 200px 1fr;
-  grid-template-areas: 'aside p'
+  grid-template-areas: 'div p'
 }
 
 .imageBox {
   display: inline;
   max-width: 200px;
-  padding: 15px;
+  margin: 0 30px 0 0
 }
 
 .code {

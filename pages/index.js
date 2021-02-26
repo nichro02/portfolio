@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
 
           <p className={styles.description}>
-            Thanks for stopping by! I'm a Denver-based software engineer who loves thinking about creative ways to solve problems. Continue scrolling to learn more about me, view my projects, and find my contact information.
+            Thanks for stopping by! I'm a Denver-based software engineer who loves thinking about creative ways to solve problems. I leverage my natural curiosity to innovate and continuously improve. Continue scrolling to learn more about me, view my projects, and find my contact information.
           </p>
 
           <a id='about'>
@@ -31,17 +31,17 @@ export default function Home() {
                 <h3 className={styles.title}>About Me</h3>
               </div>
               <div className={styles.aboutBox}>
-                <aside className={styles.imageBox}>
+                <div className={styles.imageBox}>
                   <Image
                     src='/profile-icon.jpg'
                     alt='Headshot'
                     width={200}
                     height={200}
                   />
-                </aside>
+                </div>
                 
-                  <p className={styles.about}>
-                    Before embarking upon my journey as a software engineer, I was an English teacher in South Korea and a strategic consultant in San Francisco. I was drawn to coding because it is grounded in logic and requires an endless appetite for learning.
+                  <p className={styles.about} padding={20}>
+                    Before embarking upon my journey as a software engineer, I was an English teacher in South Korea and a strategic consultant in San Francisco, where I was a trusted advisor whose insights helped drive organizational growth. I was drawn to coding because it is grounded in logic and requires an endless appetite for learning.
                     <br />
                     <br />
                     When I'm not coding, I read, travel, and eat. 
