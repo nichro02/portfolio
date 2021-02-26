@@ -123,7 +123,7 @@ export default function Home() {
               alt='Email'
             />
             <Contact
-              link='/resume_022121.pdf'
+              link='/resume_022521.pdf'
               src='/resume.png'
               alt='Resume'
             />
