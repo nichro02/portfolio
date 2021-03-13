@@ -19,7 +19,7 @@
     text-align: left;
     color: inherit;
     text-decoration: none;
-    border: 1px solid #eaeaea;
+    border: 1px solid #ab0067;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -46,19 +46,21 @@
 }
 
 .button {
-    border: 1px solid #eaeaea;
+    border: 1px solid #00ab44b3;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     padding: 10px;
     margin: 5px;
+    background-color: #ffff14;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #ffff14;
+  border-color: #ffff14;
   cursor: pointer;
+  background-color: #00ab44b3;
 }
 
 .buttonSpan {

@@ -52,6 +52,10 @@
   font-size: 4rem;
 }
 
+.title h1 {
+  color: #ab0067;
+}
+
 .title,
 .description {
   text-align: center;
