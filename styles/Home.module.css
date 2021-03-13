@@ -50,10 +50,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.title h1 {
-  color: #ab0067;
+  color: #00ab44b3;
 }
 
 .title,
@@ -143,7 +140,7 @@
 
 .sectionHeader {
   width: 100%;
-  color: #00ab44b3;
+  color: #ab0067;
 }
 
 .contactSpan {
