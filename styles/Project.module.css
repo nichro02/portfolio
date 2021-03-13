@@ -27,6 +27,7 @@
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  color: #00ab44b3;
 }
 
 .card p {
@@ -51,14 +52,15 @@
     transition: color 0.15s ease, border-color 0.15s ease;
     padding: 10px;
     margin: 5px;
-    background-color: #ffff14;
+    color: white;
+    background-color: #ab0067;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-  color: #ffff14;
-  border-color: #ffff14;
+  color: #ab0067;
+  border-color: #ab0067;
   cursor: pointer;
   background-color: #00ab44b3;
 }

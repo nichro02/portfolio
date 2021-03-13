@@ -61,7 +61,7 @@ export default function Home() {
             src='/dealOrNoDeal.png'
             alt='Deal or No Deal screenshot'
             title='Deal or No Deal'
-            description='My take on the classic TV game show'
+            description='My take on the classic TV game show. This game leverages DOM manipulation for an interactive player experience.'
             tech_stack={['CSS', 'HTML', 'Javascript']}
             github='https://github.com/nichro02/dealOrNoDeal'
             live_site='https://nichro02.github.io/dealOrNoDeal/'
