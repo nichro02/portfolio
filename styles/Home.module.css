@@ -150,9 +150,29 @@
   width: 30%
 }
 
+.projectGrid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+
+  .projectGrid, .aboutBox, .imageBox {
+    display: block;
+  }
+
+  .imageBox{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .aboutBox {
+    columns: 1;
+    margin: 0 auto;
+  }
+
 }

@@ -86,3 +86,10 @@
     list-style-type: none;
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}

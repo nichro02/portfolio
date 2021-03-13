@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
-//import Layout from './layout'
 import Layout from '../components/Layout'
 import Project from '../components/Project'
 import Contact from '../components/Contact'
@@ -57,6 +55,7 @@ export default function Home() {
               <p className={styles.description}>Check out what I've been working on</p>
             </div>
           </a>
+          <div className={styles.projectGrid}>
           <Project
             src='/dealOrNoDeal.png'
             alt='Deal or No Deal screenshot'
@@ -96,6 +95,7 @@ export default function Home() {
             github='https://github.com/nichro02/portfolio'
             live_site='https://portfolio.nichro02.vercel.app/'
           />
+          </div>
 
 
           <a id='contact'>
