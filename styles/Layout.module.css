@@ -30,6 +30,15 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+    color: #ab0067;
+    text-shadow: -1px 1px 0 white,
+                 1px 1px 0 white,
+                 1px -1px 0 white,
+                 -1px -1px 0 white;
+}
+
+.greetingText:hover {
+    cursor: pointer;
 }
 
 .introText {
