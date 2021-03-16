@@ -60,7 +60,7 @@ export default function Home() {
             src='/dealOrNoDeal.png'
             alt='Deal or No Deal screenshot'
             title='Deal or No Deal'
-            description='My take on the classic TV game show. This game leverages DOM manipulation for an interactive player experience.'
+            description='My take on the classic TV game show. This game leverages DOM manipulation for an interactive player experience'
             tech_stack={['CSS', 'HTML', 'Javascript']}
             github='https://github.com/nichro02/dealOrNoDeal'
             live_site='https://nichro02.github.io/dealOrNoDeal/'
@@ -70,7 +70,7 @@ export default function Home() {
             src='/poetryInMotion.png'
             alt='Poetry in Motion screenshot'
             title='Poetry in Motion'
-            description='A full-stack app I designed to help people get their creative juices flowing. Users can create an account that will retrieve a random Unsplash image to inspire their writing'
+            description="A full-stack app to help users get their creative juices flowing, I use Unsplash's API to fetch a random image to inspire each post"
             tech_stack={['Express','Javascript','SQL','Unsplash']}
             github='https://github.com/nichro02/poetry-in-motion'
             live_site='https://poetryinmotion.herokuapp.com/'
@@ -80,7 +80,7 @@ export default function Home() {
             src='/chirper.png'
             alt='Chirper screenshot'
             title='Chirper'
-            description='A full-stack social media app my group and I built as a project for General Assembly - think Twitter/Facebook reimagined'
+            description='A full-stack social media app built by three other engineers and myself  - think Twitter/Facebook reimagined'
             tech_stack={['Express','Javascript','Mongoose','React']}
             github='https://github.com/SFX818/Team-7-frontend'
             live_site='https://chirper.surge.sh/'
