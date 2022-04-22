@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
                         </span>
                         <span className={styles.link}>
                             <Contact
-                                link='/resume_022521.pdf'
+                                link='/resume_101221.pdf'
                                 src='/resume.png'
                                 alt='Resume'
                             />
@@ -96,7 +96,7 @@ const Layout = ({ children }) => {
                         <span className={styles.link}>
                             <div title='Resume'>
                                 <Contact
-                                    link='/resume_022521.pdf'
+                                    link='/resume_101221.pdf'
                                     src='/resume.png'
                                     alt='Resume'
                                 />

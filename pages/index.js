@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
 
           <p className={styles.description}>
-            Thanks for stopping by! I'm a Denver-based software engineer who loves thinking about creative ways to solve problems. I leverage my natural curiosity to innovate and continuously improve. Continue scrolling to learn more about me, view my projects, and find my contact information.
+            Thanks for stopping by! I'm a Denver-based business analyst and software engineer who loves thinking about creative ways to solve problems. I leverage my natural curiosity to innovate and continuously improve. Continue scrolling to learn more about me, view my projects, and find my contact information.
           </p>
 
           <a id='about'>
