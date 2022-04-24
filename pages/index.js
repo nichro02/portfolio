@@ -87,7 +87,7 @@ export default function Home() {
           />
 
           <Project
-            src='/portfolioPage.png'
+            src='/PortfolioScreenshot_042422.png'
             alt='Portfolio screenshot'
             title='My Portfolio'
             description='You are looking a living project of mine! I have rebuilt my portfolio several times and am continuing to improve it'
