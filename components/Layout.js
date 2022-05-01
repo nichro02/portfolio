@@ -75,6 +75,7 @@ const Layout = ({ children }) => {
             <footer className={styles.footer}>
                 <div className={styles.footerDiv}>
                     <span className={styles.footerLinks}>
+                        
                         <span className={styles.link}>
                             <div title='Github'>
                                 <Contact
@@ -84,6 +85,7 @@ const Layout = ({ children }) => {
                                 />
                             </div>
                         </span>
+                        
                         <span className={styles.link}>
                             <div title='LinkedIn'>
                                 <Contact
@@ -93,6 +95,7 @@ const Layout = ({ children }) => {
                                 />
                             </div>
                         </span>
+                        
                         <span className={styles.link}>
                             <div title='Resume'>
                                 <Contact
@@ -104,10 +107,9 @@ const Layout = ({ children }) => {
                         </span>
 
                     </span>
+                    
                     <h6 className={styles.footerText}>
-
                         * Flamingo favicon courtesy of Freepik on  flaticon
-                        
                     </h6>
 
                 </div>

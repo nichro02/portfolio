@@ -50,7 +50,6 @@ export default function Home() {
           </a>
           <a id='projects'>
             <div className={styles.sectionHeader}>
-
               <h3 className={styles.title}>Projects</h3>
               <p className={styles.description}>Check out what I've been working on</p>
             </div>
@@ -100,7 +99,6 @@ export default function Home() {
 
           <a id='contact'>
             <div className={styles.sectionHeader}>
-
               <h3 className={styles.title}>Contact Me</h3>
               <p className={styles.description}>Get in touch!</p>
             </div>
